@@ -1,5 +1,5 @@
 {
-  "name": "websdk-sample-signature-node.js",
+  "name": "sample-signature-node.js",
   "version": "1.0.0",
   "description": "Genrerate a signature to Start and Join Meetings and Webinars with the Zoom Web SDK.",
   "main": "index.js",
@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
   },
-  "author": "Tommy Gaessler",
+  "author": "freddi andrew",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.19.0",
