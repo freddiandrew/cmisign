@@ -5,7 +5,7 @@ const crypto = require('crypto')
 const cors = require('cors')
 
 const app = express()
-const port = process.env.PORT || 4000
+const port = process.env.PORT 
 
 app.use(bodyParser.json(), cors())
 app.options('*', cors());
@@ -22,4 +22,4 @@ app.post('/', (req, res) => {
   })
 })
 
-app.listen(port, () => console.log(`Zoom Web SDK Sample Signature Node.js on port ${port}!`))
+app.listen(port, () => console.log(`Zoom Signature Node.js on port ${port}!`))
